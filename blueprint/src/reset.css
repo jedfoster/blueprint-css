@@ -37,6 +37,7 @@ img, video {
 
 /* Line-height should always be unitless! */
 body {
+  min-height:100%; 
   line-height: 1.5;
   background: white; 
 }
@@ -45,6 +46,7 @@ body {
 table { 
 	border-collapse: separate; 
 	border-spacing: 0; 
+	font-size: inherit;
 }
 /* float:none prevents the span-x classes from breaking table-cell display */
 caption, th, td { 
@@ -53,8 +55,8 @@ caption, th, td {
 	float:none !important; 
 }
 table, th, td { 
-	vertical-align: middle; 
-}
+	vertical-align: bottom; 
+}	
 
 /* Remove possible quote marks (") from <q>, <blockquote>. */
 blockquote:before, blockquote:after, q:before, q:after { content: ''; }
