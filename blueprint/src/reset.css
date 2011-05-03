@@ -29,7 +29,9 @@ hgroup, nav, section {
 
 /* This helps to make newer HTML5 elements behave like DIVs in older browers */ 
 article, aside, details, figcaption, figure, dialog, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, section,
+/* Fix additional pixels in Safari (WebKit in general?) */
+img, video {
     display:block;
 }
 
