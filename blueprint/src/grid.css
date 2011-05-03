@@ -11,6 +11,12 @@
 
 -------------------------------------------------------------- */
 
+/* Minimal padding to prevent text from hitting the edge of the 
+browser when the window size is below the .container width */
+body {
+  padding: 0 1.5em;
+}
+
 /* A container should group all your columns. */
 .container {
   width: 950px;
