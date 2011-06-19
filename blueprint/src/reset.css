@@ -37,7 +37,6 @@ img, video {
 
 /* Line-height should always be unitless! */
 body {
-  min-height:100%; 
   line-height: 1.5;
   background: white; 
 }
@@ -56,7 +55,7 @@ caption, th, td {
 }
 table, th, td { 
 	vertical-align: bottom; 
-}	
+}
 
 /* Remove possible quote marks (") from <q>, <blockquote>. */
 blockquote:before, blockquote:after, q:before, q:after { content: ''; }
